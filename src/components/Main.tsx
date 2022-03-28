@@ -1,5 +1,5 @@
 import React from 'react';
-import * as TestAPI from '../lib/api/TestAPI';
+import * as TestAPI from 'lib/api/TestAPI';
 import axios from "axios";
 
 export default function Main() {

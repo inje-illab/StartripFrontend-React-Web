@@ -2983,7 +2983,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^17.0.20":
+"@types/react@npm:*, @types/react@npm:^17.0.43":
   version: 17.0.43
   resolution: "@types/react@npm:17.0.43"
   dependencies:
@@ -4714,7 +4714,7 @@ __metadata:
     "@types/jest": ^27.0.1
     "@types/node": ^16.7.13
     "@types/prettier": ^2
-    "@types/react": ^17.0.20
+    "@types/react": ^17.0.43
     "@types/react-dom": ^17.0.9
     "@types/testing-library__jest-dom": ^5
     "@typescript-eslint/eslint-plugin": ^5.16.0

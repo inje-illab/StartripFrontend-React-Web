@@ -8,7 +8,8 @@
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
         "airbnb",
-        "aribnb/typescript"
+        "aribnb/typescript",
+        "./tsconfig.json"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {

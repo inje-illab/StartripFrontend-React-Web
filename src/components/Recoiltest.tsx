@@ -1,5 +1,5 @@
 import { useRecoilState, useSetRecoilState, useResetRecoilState } from 'recoil';
-import { countState } from '../store/recoiltest';
+import { countState } from 'store/recoiltest';
 
 export default function Recoiltest() {
     const [ count, setCount ] = useRecoilState(countState); // useRecoilState 을 통한 value, setter 반환

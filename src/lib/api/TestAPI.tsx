@@ -12,10 +12,10 @@ export function getTestAPI(){
 
 const result = async () => {
     await axios.get('localhost:8080/api/test')
-        .then(function (response) {
+        .then(function (response: any) {
             console.log(response);
         })
-        .catch(function (error) {
+        .catch(function (error: any) {
             // handle error
             console.log(error);
         })
