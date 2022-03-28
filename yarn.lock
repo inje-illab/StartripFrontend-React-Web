@@ -52,7 +52,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.1.0, @babel/core@npm:^7.11.1, @babel/core@npm:^7.12.3, @babel/core@npm:^7.16.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.8.0":
+"@babel/core@npm:^7.1.0, @babel/core@npm:^7.11.1, @babel/core@npm:^7.12.3, @babel/core@npm:^7.16.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.8.0, @babel/core@npm:latest":
   version: 7.17.8
   resolution: "@babel/core@npm:7.17.8"
   dependencies:
@@ -1311,7 +1311,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.11.0, @babel/preset-env@npm:^7.12.1, @babel/preset-env@npm:^7.16.4":
+"@babel/preset-env@npm:^7.11.0, @babel/preset-env@npm:^7.12.1, @babel/preset-env@npm:^7.16.4, @babel/preset-env@npm:latest":
   version: 7.16.11
   resolution: "@babel/preset-env@npm:7.16.11"
   dependencies:
@@ -2631,7 +2631,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__core@npm:^7.0.0, @types/babel__core@npm:^7.1.14":
+"@types/babel__core@npm:^7, @types/babel__core@npm:^7.0.0, @types/babel__core@npm:^7.1.14":
   version: 7.1.19
   resolution: "@types/babel__core@npm:7.1.19"
   dependencies:
@@ -2650,6 +2650,13 @@ __metadata:
   dependencies:
     "@babel/types": ^7.0.0
   checksum: 20effbbb5f8a3a0211e95959d06ae70c097fb6191011b73b38fe86deebefad8e09ee014605e0fd3cdaedc73d158be555866810e9166e1f09e4cfd880b874dcb0
+  languageName: node
+  linkType: hard
+
+"@types/babel__preset-env@npm:^7":
+  version: 7.9.2
+  resolution: "@types/babel__preset-env@npm:7.9.2"
+  checksum: a905ed92a3f602384966153e74a94790425e98af54e392a7fcfb5c5ded2f2a58c49a9fa64a0cb506fbffb8169ad25b56ea87983c812a4fb880f0716668c8c085
   languageName: node
   linkType: hard
 
@@ -3525,6 +3532,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@yarnpkg/sdks@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "@yarnpkg/sdks@npm:2.6.0"
+  dependencies:
+    "@yarnpkg/core": ^3.2.0
+    "@yarnpkg/fslib": ^2.6.1
+    "@yarnpkg/parsers": ^2.5.0
+    chalk: ^3.0.0
+    clipanion: ^3.2.0-rc.4
+    comment-json: ^2.2.0
+    lodash: ^4.17.15
+    tslib: ^1.13.0
+  bin:
+    sdks: ./lib/cli.js
+  checksum: 80d3c8931169e7604ce3c28d81f47478ead243626e7f951bbb69e23327f69435d2e9a90e4905e5a33955e46dee4525d28cc6e0cc3aca34369c7372550a72b05d
+  languageName: node
+  linkType: hard
+
 "@yarnpkg/shell@npm:^3.2.0":
   version: 3.2.0
   resolution: "@yarnpkg/shell@npm:3.2.0"
@@ -4036,7 +4061,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-loader@npm:^8.2.3":
+"babel-loader@npm:^8.2.3, babel-loader@npm:latest":
   version: 8.2.4
   resolution: "babel-loader@npm:8.2.4"
   dependencies:
@@ -4703,6 +4728,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "codebase@workspace:."
   dependencies:
+    "@babel/core": latest
+    "@babel/preset-env": latest
     "@emotion/react": ^11.8.2
     "@emotion/styled": ^11.8.1
     "@mui/icons-material": ^5.5.1
@@ -4710,6 +4737,8 @@ __metadata:
     "@testing-library/jest-dom": ^5.16.2
     "@testing-library/react": ^12.0.0
     "@testing-library/user-event": ^13.2.1
+    "@types/babel__core": ^7
+    "@types/babel__preset-env": ^7
     "@types/eslint": ^8
     "@types/jest": ^27.0.1
     "@types/node": ^16.7.13
@@ -4719,7 +4748,9 @@ __metadata:
     "@types/testing-library__jest-dom": ^5
     "@typescript-eslint/eslint-plugin": ^5.16.0
     "@yarnpkg/pnpify": ^3.1.1
+    "@yarnpkg/sdks": ^2.6.0
     axios: ^0.26.1
+    babel-loader: latest
     eslint: ^8.12.0
     eslint-config-airbnb: ^19.0.4
     eslint-config-airbnb-typescript: ^16.1.4
@@ -4735,7 +4766,7 @@ __metadata:
     react-dom: ^17.0.2
     react-scripts: 5.0.0
     recoil: ^0.6.1
-    typescript: ^4.4.2
+    typescript: ^4.6.3
     web-vitals: ^2.1.0
   languageName: unknown
   linkType: soft
@@ -4829,6 +4860,18 @@ __metadata:
   version: 8.3.0
   resolution: "commander@npm:8.3.0"
   checksum: 0f82321821fc27b83bd409510bb9deeebcfa799ff0bf5d102128b500b7af22872c0c92cb6a0ebc5a4cf19c6b550fba9cedfa7329d18c6442a625f851377bacf0
+  languageName: node
+  linkType: hard
+
+"comment-json@npm:^2.2.0":
+  version: 2.4.2
+  resolution: "comment-json@npm:2.4.2"
+  dependencies:
+    core-util-is: ^1.0.2
+    esprima: ^4.0.1
+    has-own-prop: ^2.0.0
+    repeat-string: ^1.6.1
+  checksum: 1e52aa6ddc7aaab4b66b2fbca8758f1035c9ea42bacf7ccd3c446a46b635fff83366cd8a490043675a345402a13675a9e22581671ebbd202e6987ecb6d4d5280
   languageName: node
   linkType: hard
 
@@ -4968,7 +5011,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-util-is@npm:~1.0.0":
+"core-util-is@npm:^1.0.2, core-util-is@npm:~1.0.0":
   version: 1.0.3
   resolution: "core-util-is@npm:1.0.3"
   checksum: 9de8597363a8e9b9952491ebe18167e3b36e7707569eed0ebf14f8bba773611376466ae34575bca8cfe3c767890c859c74056084738f09d4e4a6f902b2ad7d99
@@ -7107,6 +7150,13 @@ __metadata:
   version: 4.0.0
   resolution: "has-flag@npm:4.0.0"
   checksum: 261a1357037ead75e338156b1f9452c016a37dcd3283a972a30d9e4a87441ba372c8b81f818cd0fbcd9c0354b4ae7e18b9e1afa1971164aef6d18c2b6095a8ad
+  languageName: node
+  linkType: hard
+
+"has-own-prop@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "has-own-prop@npm:2.0.0"
+  checksum: ca6336e85ead2295c9603880cbc199e2d3ff7eaea0e9035d68fbc79892e9cf681abc62c0909520f112c671dad9961be2173b21dff951358cc98425c560e789e0
   languageName: node
   linkType: hard
 
@@ -11253,6 +11303,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"repeat-string@npm:^1.6.1":
+  version: 1.6.1
+  resolution: "repeat-string@npm:1.6.1"
+  checksum: 1b809fc6db97decdc68f5b12c4d1a671c8e3f65ec4a40c238bc5200e44e85bcc52a54f78268ab9c29fcf5fe4f1343e805420056d1f30fa9a9ee4c2d93e3cc6c0
+  languageName: node
+  linkType: hard
+
 "require-directory@npm:^2.1.1":
   version: 2.1.1
   resolution: "require-directory@npm:2.1.1"
@@ -12653,7 +12710,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.4.2":
+"typescript@npm:^4.6.3":
   version: 4.6.3
   resolution: "typescript@npm:4.6.3"
   bin:
@@ -12663,7 +12720,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.4.2#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
   version: 4.6.3
   resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"
   bin:
