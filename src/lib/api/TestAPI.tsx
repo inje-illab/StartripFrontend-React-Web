@@ -2,13 +2,17 @@ import React from 'react';
 import axios from 'axios';
 
 export function getTestAPI(){
-    // GET 요청 전송
-    const data = async () => {
-        try {
-            return await axios.get('localhost:8080/api/test',);
-        } catch (error) {
-            console.error(error);
-        }
-    };
-    return <h1>{data}</h1>
+    return async () => {
+        await axios.get('localhost:8080/api/test')
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                // handle error
+                console.log(error);
+            })
+            .then(function () {
+                // always executed
+            });
+    }
 }

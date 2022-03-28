@@ -1,7 +1,7 @@
 import { useRecoilState, useSetRecoilState, useResetRecoilState } from 'recoil';
 import { countState } from '../store/recoiltest';
 
-function Recoiltest() {
+export default function Recoiltest() {
     const [ count, setCount ] = useRecoilState(countState); // useRecoilState 을 통한 value, setter 반환
     const setCountUseSetRecoilState = useSetRecoilState(countState); // 값을 변경하는 함수만 반환
     const resetCount = useResetRecoilState(countState); // 설정된 기본값으로 리셋
@@ -18,5 +18,3 @@ function Recoiltest() {
         </div>
     );
 }
-
-export default Recoiltest;
