@@ -1,13 +1,11 @@
 import React from 'react';
 import axios from 'axios';
 
-export function getTestAPI(){
-    const instance = axios.create({
-        baseURL: 'https://some-domain.com/api/',
-        headers: { 'X-Custom-Header': 'foobar' },
-        timeout: 1000,
-    })
-    return result;
+export const testAPI = function() {
+axios.get("localhost:3000").then(
+    (response) => {
+    console.log(response)
+})
 }
 
 const result = async () => {
