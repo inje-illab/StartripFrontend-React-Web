@@ -4770,6 +4770,7 @@ __metadata:
     recoil: ^0.6.1
     typescript: ^4.6.3
     web-vitals: ^2.1.0
+    webpack: ^5.70.0
   languageName: unknown
   linkType: soft
 
@@ -13300,7 +13301,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.64.4":
+"webpack@npm:^5.64.4, webpack@npm:^5.70.0":
   version: 5.70.0
   resolution: "webpack@npm:5.70.0"
   dependencies:

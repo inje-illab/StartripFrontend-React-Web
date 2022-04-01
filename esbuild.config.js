@@ -10,4 +10,3 @@ build({
     'process.env.NODE_ENV': 'production'
   }
 })
-})

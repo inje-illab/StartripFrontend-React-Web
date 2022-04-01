@@ -17,12 +17,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "composite": true,
     "jsx": "react-jsx",
     "baseUrl" : "src"
   },
   "include": [
-    "src/**/*",
+    "src/**/*", "tests/**/*",
     ".eslintrc.json",
-    "types"
-  ]
+    "types",
+  ],
+  "exclude": [".vscode"]
 }
