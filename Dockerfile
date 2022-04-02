@@ -5,7 +5,8 @@ COPY package.json .
 RUN yarn set version berry
 
 COPY yarn.lock .yarn .yarnrc.yml ./
-RUN yarn install
+RUN yarn add react-scripts
+RUN yarn
 COPY . .
 
-CMD ["yarn", "run", "start"]
+CMD ["yarn", "start"]

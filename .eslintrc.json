@@ -9,7 +9,7 @@
         "plugin:@typescript-eslint/recommended",
         "airbnb",
         "airbnb/hooks",
-        "aribnb/typescript",
+        "airbnb/typescript",
         "plugin:react/recommended"
     ],
     "parser": "@typescript-eslint/parser",
