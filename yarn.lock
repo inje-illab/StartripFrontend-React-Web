@@ -4855,8 +4855,8 @@ __metadata:
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.29.4
     prettier: 2.6.2
-    react: ^18.0.0
-    react-dom: ^18.0.0
+    react: next
+    react-dom: next
     react-scripts: ^5.0.0
     recoil: ^0.7.0
     typescript: ^4.6.3
@@ -11318,15 +11318,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^18.0.0":
-  version: 18.0.0
-  resolution: "react-dom@npm:18.0.0"
+"react-dom@npm:next":
+  version: 18.1.0-next-af730436c-20220405
+  resolution: "react-dom@npm:18.1.0-next-af730436c-20220405"
   dependencies:
     loose-envify: ^1.1.0
-    scheduler: ^0.21.0
+    scheduler: 0.22.0-next-af730436c-20220405
   peerDependencies:
-    react: ^18.0.0
-  checksum: dd0ba9f2f31dd728076c892a95b2f5a8dfe79136431b0289afb46eec39d0ca6b6f0f40a60fd8aa6ef702c98ce7c26100d3d4dbc35c7c9e87429cd04f84cb58bd
+    react: 18.1.0-next-af730436c-20220405
+  checksum: 72a366f369ab47dcfac0d927acf85617374c064e8e73c64b45759493fe183e5e8a73202154dc5e648bb52221169e367b653a22056777e20705b3a95a874aa797
   languageName: node
   linkType: hard
 
@@ -11440,12 +11440,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.0.0":
-  version: 18.0.0
-  resolution: "react@npm:18.0.0"
+"react@npm:next":
+  version: 18.1.0-next-af730436c-20220405
+  resolution: "react@npm:18.1.0-next-af730436c-20220405"
   dependencies:
     loose-envify: ^1.1.0
-  checksum: 293020b96536b3c7113ee57ca5c990a3f25649d1751b1c7a3aabd16dff0691fe9f1eed1206616d0906d05933536052037340a0c8d0941ff870b0eb469a2f975b
+  checksum: 22ff0b3b1a40f616849f331e351e3049b3284b28437fd27b2c66e58541b86658088653cdfded7ef56374e1c08f976d2ce4b7c31dfeed51b644041eff6367052f
   languageName: node
   linkType: hard
 
@@ -11920,12 +11920,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "scheduler@npm:0.21.0"
+"scheduler@npm:0.22.0-next-af730436c-20220405":
+  version: 0.22.0-next-af730436c-20220405
+  resolution: "scheduler@npm:0.22.0-next-af730436c-20220405"
   dependencies:
     loose-envify: ^1.1.0
-  checksum: 4f8285076041ed2c81acdd1faa987f1655fdbd30554bc667c1ea64743fc74fb3a04ca7d27454b3d678735df5a230137a3b84756061b43dc5796e80701b66d124
+  checksum: d4196048665fcf7402dfad0c5cc31af38286e6b47d61e333f0e43c5fd61567bd48934b2db6affa06d375afc77efb3b56235e2dede7c599590a6eaefc0c008978
   languageName: node
   linkType: hard
 

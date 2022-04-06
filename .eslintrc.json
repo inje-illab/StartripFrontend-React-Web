@@ -9,7 +9,7 @@
         "plugin:@typescript-eslint/recommended",
         "airbnb",
         "airbnb/hooks",
-        "airbnb/typescript",
+        "airbnb-typescript",
         "plugin:react/recommended"
     ],
     "parser": "@typescript-eslint/parser",
@@ -26,5 +26,19 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+              "js": "never",
+              "mjs": "never",
+              "jsx": "never",
+              "ts": "never",
+              "tsx": "never"
+            }
+         ]
+    },
+    "settings": {
+        "import/extensions": [".js", ".mjs", ".jsx", ".ts", ".tsx"]
     }
 }

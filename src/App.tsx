@@ -9,7 +9,7 @@ function App() {
   console.log(api);
   return (
     <Container maxWidth="xl">
-        <h1>스타-링크</h1>
+        <h1>스타-트립</h1>
         <Main />
         <Recoiltest />
     </Container>
