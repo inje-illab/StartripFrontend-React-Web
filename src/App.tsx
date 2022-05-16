@@ -1,19 +1,23 @@
 import React from 'react';
+import { Routes, Route, useNavigate, Link } from "react-router-dom";
 import Main from 'components/Main';
+import AppBarCmp from 'components/AppBar';
+import Login from 'components/Login';
 import Recoiltest from 'components/Recoiltest';
 import {Container} from '@mui/material';
-import * as TestAPI from 'lib/api/TestAPI';
+import { ThemeProvider } from '@mui/material/styles';
+import { theme } from 'store/theme';
 
-function App() {
-  const api = TestAPI.testAPI();
-  console.log(api);
+export default function App() {
   return (
-    <Container maxWidth="xl">
-        <h1>스타-트립</h1>
-        <Main />
-        <Recoiltest />
-    </Container>
+    <ThemeProvider theme={theme}>
+      <AppBarCmp />
+      <Container maxWidth="xl">
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </Container>
+    </ThemeProvider>
   );
 }
-
-export default App;
