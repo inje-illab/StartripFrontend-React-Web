@@ -25,4 +25,4 @@ export default function AppBarCmp() {
         </AppBar>
       </Box>
     );
-  }
+}
