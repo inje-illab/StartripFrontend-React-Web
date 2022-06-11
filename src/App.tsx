@@ -7,6 +7,7 @@ import Recoiltest from 'components/Recoiltest';
 import {Container} from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from 'store/theme';
+import SignUp from 'components/SignUp';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
         </Routes>
       </Container>
     </ThemeProvider>
