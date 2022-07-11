@@ -1,12 +1,10 @@
 FROM node:latest as build
+
 WORKDIR /app
 
-COPY package.json .
-RUN yarn set version berry
-
-COPY yarn.lock .yarn .yarnrc.yml ./
+COPY package.json yarn.lock .yarnrc.yml ./
+RUN yarn install
 RUN yarn add react-scripts
-RUN yarn
-COPY . .
+COPY ./ ./
 
 CMD ["yarn", "start"]
