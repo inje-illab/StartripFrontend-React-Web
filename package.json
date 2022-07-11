@@ -51,6 +51,10 @@
     "@yarnpkg/pnpify": "^4.0.0-rc.4",
     "@yarnpkg/sdks": "^3.0.0-rc.4",
     "babel-loader": "^8.2.5",
-    "esbuild": "^0.14.38"
-  }
+    "esbuild": "^0.14.38",
+    "yarn-audit-fix": "^9.3.2"
+  },
+  "resolutions" :{
+    "nth-check":"2.0.1"
+}
 }
