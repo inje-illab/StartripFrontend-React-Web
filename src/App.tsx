@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, useNavigate, Link } from "react-router-dom";
 import Main from 'components/Main';
-import AppBarCmp from 'components/AppBar';
+import AppBarCmp from 'layout/AppBar';
 import Login from 'components/Login';
 import Recoiltest from 'components/Recoiltest';
 import {Container} from '@mui/material';
