@@ -1,12 +1,12 @@
-import { build } from 'esbuild'
+import { build } from "esbuild";
 
 build({
-  entryPoints: ['./src/index.ts'],
+  entryPoints: ["./src/index.ts"],
   bundle: true,
-  outfile: './dist/bundle.js',
+  outfile: "./dist/bundle.js",
   minify: true,
-  target: 'es2022',
+  target: "es2022",
   define: {
-    'process.env.NODE_ENV': 'production'
+    "process.env.NODE_ENV": "production"
   }
-})
+});
