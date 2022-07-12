@@ -5,7 +5,7 @@ build({
   bundle: true,
   outfile: './dist/bundle.js',
   minify: true,
-  target: 'es2020',
+  target: 'es2022',
   define: {
     'process.env.NODE_ENV': 'production'
   }
