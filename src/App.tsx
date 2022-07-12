@@ -1,18 +1,18 @@
 import React from 'react';
-import Main from 'components/Main';
-import Recoiltest from 'components/Recoiltest';
+import Main from 'pages/Main';
 import {Container} from '@mui/material';
 import * as TestAPI from 'lib/api/TestAPI';
+import { ST_Footer, ST_Header } from 'layout';
 
 function App() {
   const api = TestAPI.testAPI();
   console.log(api);
   return (
-    <Container maxWidth="xl">
-        <h1>스타-트립</h1>
-        <Main />
-        <Recoiltest />
-    </Container>
+    <>
+      <ST_Header />
+      <Main />
+      <ST_Footer />
+    </>
   );
 }
 
