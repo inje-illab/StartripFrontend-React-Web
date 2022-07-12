@@ -1,35 +1,35 @@
 import { Button, Container, Stack, TextField } from "@mui/material";
 import React, { useState, useCallback } from "react";
-import {useNavigate} from 'react-router-dom';
+import {useNavigate} from "react-router-dom";
 
 export default function Login () {
-const [userName, editUserName] = useState('');
-const [passWord, editPassWord] = useState('');
+const [userName, editUserName] = useState("");
+const [passWord, editPassWord] = useState("");
 const [isGoodtoGo, setGoodtoGo] = useState(0);
-const [loginText, setLoginText] = useState('');
+const [loginText, setLoginText] = useState("");
 
   const navigate = useNavigate();
 
   const changeUsername = (e) => {
     editUserName(e.target.value);
-  }
+  };
 
   const changePassword = (e) => {
     editPassWord(e.target.value);
-  }
+  };
 
   const onKeyPress = (e) => {
-    if(e.key == 'Enter'){
+    if(e.key == "Enter"){
       loginButton();
     }
-  }
+  };
 
   const loginButton = () => {
-    setLoginText('id = ' + userName + 
-        '<br/>pw = ' + passWord)
-  }
+    setLoginText("id = " + userName + 
+        "<br/>pw = " + passWord);
+  };
 
-  const handleSignUpBtn = useCallback(() => navigate('/signup', {replace: true}), [navigate]);
+  const handleSignUpBtn = useCallback(() => navigate("/signup", {replace: true}), [navigate]);
 
   return (
     <Container maxWidth="sm">
