@@ -47,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.5.2"],\
             ["@types/node", "npm:18.0.4"],\
             ["@types/prettier", "npm:2.6.3"],\
+            ["@types/qs", "npm:6.9.7"],\
             ["@types/react", "npm:18.0.15"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["@types/testing-library__jest-dom", "npm:5.14.5"],\
@@ -69,6 +70,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:4.6.0"],\
             ["history", "npm:5.3.0"],\
             ["prettier", "npm:2.7.1"],\
+            ["qs", "npm:6.11.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:18.2.0"],\
             ["react-router-dom", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:6.3.0"],\
@@ -8479,6 +8481,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/jest", "npm:27.5.2"],\
             ["@types/node", "npm:18.0.4"],\
             ["@types/prettier", "npm:2.6.3"],\
+            ["@types/qs", "npm:6.9.7"],\
             ["@types/react", "npm:18.0.15"],\
             ["@types/react-dom", "npm:18.0.6"],\
             ["@types/testing-library__jest-dom", "npm:5.14.5"],\
@@ -8501,6 +8504,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-hooks", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:4.6.0"],\
             ["history", "npm:5.3.0"],\
             ["prettier", "npm:2.7.1"],\
+            ["qs", "npm:6.11.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:18.2.0"],\
             ["react-router-dom", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:6.3.0"],\
@@ -17000,6 +17004,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/qs-npm-6.10.3-172e1a3fb7-0fac5e6c71.zip/node_modules/qs/",\
           "packageDependencies": [\
             ["qs", "npm:6.10.3"],\
+            ["side-channel", "npm:1.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:6.11.0", {\
+          "packageLocation": "./.yarn/cache/qs-npm-6.11.0-caf1bc9dea-6e1f29dd53.zip/node_modules/qs/",\
+          "packageDependencies": [\
+            ["qs", "npm:6.11.0"],\
             ["side-channel", "npm:1.0.4"]\
           ],\
           "linkType": "HARD"\
