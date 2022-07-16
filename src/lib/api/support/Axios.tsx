@@ -8,7 +8,7 @@ const jwtToken = "";
 //   return qs.stringify(params);
 // };
 
-// Paramater 추가 필요함!
+// paramatter additional needed:)
 const getAPI = async(url: string) => {
   await axios
     .get(url, {

@@ -17,5 +17,6 @@
     // Ensure that Babel can safely transpile files in the TypeScript project
     "isolatedModules": true
   },
-  "exclude": ["node_modules", "./yarn/cache", "js", "webpack"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "js"]
 }
