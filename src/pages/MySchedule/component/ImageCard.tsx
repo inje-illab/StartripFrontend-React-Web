@@ -42,7 +42,6 @@ const itemData = [
   {
     img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
     title: "설날에 부모님 모시고 갈 여행 일정",
-    featured: true,
   },
   {
     img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
