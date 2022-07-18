@@ -3,6 +3,8 @@ import { styled } from "@mui/material/styles";
 import { Container, Alert, AlertTitle, Grid, Paper, Box } from "@mui/material";
 import { ST_Container, ST_Title } from "components";
 import ImageCard from "./component/ImageCard";
+import MyShceduleButton from "./component/ImageCard";
+import MyScheduleButton from "./component/MyScheduleButton";
 
 export default function MySchedule() {
     
@@ -10,9 +12,13 @@ export default function MySchedule() {
     
     
     return (
+        
         <ST_Container>
-            <ST_Title title="나의 스케쥴" />
+            <Container maxWidth="sm">
+            <MyScheduleButton/>
+ 
             <ImageCard/>
+            </Container>
         </ST_Container>
     );
 }

@@ -7,17 +7,12 @@ import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
 import {ThemeProvider, createTheme} from "@mui/system";
 
-
-
-
-export default function ImageCard() {
+const  ImageCard = () => {
   return (
-    <ImageList cols={1} gap = {10}>
-      <ImageListItem key="Subheader" cols={1}>
-        <ListSubheader component="div">나의 스케쥴을 확인해보세요!</ListSubheader>
-      </ImageListItem>
+    <ImageList cols={1} variant = {"standard"} >
+
       {itemData.map((item) => (
-        <ImageListItem key={item.img}>
+        <ImageListItem key={item.img} sx={{ maxHeight: 100}}>
           <img
             src={`${item.img}?w=248&fit=crop&auto=format`}
             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
@@ -25,7 +20,8 @@ export default function ImageCard() {
             loading="lazy"
           />
           <ImageListItemBar
-
+            sx ={{height: 1}}
+            position = {"top"}
             title={item.title}
             subtitle={item.author}
             actionIcon={
@@ -41,7 +37,7 @@ export default function ImageCard() {
       ))}
     </ImageList>
   );
-}
+};
 
 const itemData = [
   {
@@ -64,3 +60,5 @@ const itemData = [
   },
   
 ];
+
+export default ImageCard;
