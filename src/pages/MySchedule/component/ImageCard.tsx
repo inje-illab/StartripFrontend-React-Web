@@ -7,12 +7,12 @@ import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
 import {ThemeProvider, createTheme} from "@mui/system";
 
-const  ImageCard = () => {
+const ImageCard = () => {
   return (
     <ImageList cols={1} variant = {"standard"} >
 
       {itemData.map((item) => (
-        <ImageListItem key={item.img} sx={{ maxHeight: 100}}>
+        <ImageListItem key={item.img} sx={{ fontWeight:"bold", textAlign:"center", maxHeight: 130}}>
           <img
             src={`${item.img}?w=248&fit=crop&auto=format`}
             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
@@ -20,10 +20,9 @@ const  ImageCard = () => {
             loading="lazy"
           />
           <ImageListItemBar
-            sx ={{height: 1}}
+            sx ={{height: 1} }
             position = {"top"}
             title={item.title}
-            subtitle={item.author}
             actionIcon={
               <IconButton
                 sx={{ color: "rgba(255, 255, 255, 0.54)" }}
