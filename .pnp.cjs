@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/react", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:11.9.3"],\
             ["@emotion/styled", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:11.9.3"],\
             ["@mui/icons-material", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:5.8.4"],\
+            ["@mui/icons-material\\n", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:5.8.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40mui%2Ficons-material%2F-%2Ficons-material-5.8.4.tgz"],\
             ["@mui/material", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:5.9.0"],\
             ["@mui/system", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:5.9.0"],\
             ["@testing-library/jest-dom", "npm:5.16.4"],\
@@ -5045,6 +5046,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@mui/icons-material\\n", [\
+        ["npm:5.8.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40mui%2Ficons-material%2F-%2Ficons-material-5.8.4.tgz", {\
+          "packageLocation": "./.yarn/__virtual__/@mui-icons-material\\n-virtual-4e381a8ba3/0/cache/@mui-icons-material\\n-npm-5.8.4-e20c1d6edf-6cb59a7b08.zip/node_modules/@mui/icons-material\\n/",\
+          "packageDependencies": [\
+            ["@mui/icons-material\\n", "npm:5.8.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40mui%2Ficons-material%2F-%2Ficons-material-5.8.4.tgz"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:5.8.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40mui%2Ficons-material%2F-%2Ficons-material-5.8.4.tgz", {\
+          "packageLocation": "./.yarn/__virtual__/@mui-icons-material\\n-virtual-4e381a8ba3/0/cache/@mui-icons-material\\n-npm-5.8.4-e20c1d6edf-6cb59a7b08.zip/node_modules/@mui/icons-material\\n/",\
+          "packageDependencies": [\
+            ["@mui/icons-material\\n", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:5.8.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40mui%2Ficons-material%2F-%2Ficons-material-5.8.4.tgz"],\
+            ["@babel/runtime", "npm:7.18.6"],\
+            ["@mui/material", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:5.9.0"],\
+            ["@types/mui__material", null],\
+            ["@types/react", "npm:18.0.15"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@mui/material",\
+            "@types/mui__material",\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@mui/material", [\
         ["npm:5.9.0", {\
           "packageLocation": "./.yarn/cache/@mui-material-npm-5.9.0-a5d7cc316e-f3c59521ce.zip/node_modules/@mui/material/",\
@@ -8516,6 +8544,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@emotion/react", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:11.9.3"],\
             ["@emotion/styled", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:11.9.3"],\
             ["@mui/icons-material", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:5.8.4"],\
+            ["@mui/icons-material\\n", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:5.8.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40mui%2Ficons-material%2F-%2Ficons-material-5.8.4.tgz"],\
             ["@mui/material", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:5.9.0"],\
             ["@mui/system", "virtual:3e80ee51e8ac2b2e231ae0690a2f7b91124309beec945b7d51fbfd919e80d13f2ed9833bb81d076f26b5d1b3bcc9d3f40f276c101ca2f25db8059a9bd8f07338#npm:5.9.0"],\
             ["@testing-library/jest-dom", "npm:5.16.4"],\

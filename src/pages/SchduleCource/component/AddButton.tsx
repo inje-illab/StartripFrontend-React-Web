@@ -1,17 +1,15 @@
 import * as React from "react";
-import {Button } from "@mui/material";
+import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
-import { Box, ThemeProvider, createTheme } from "@mui/system";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-export default function MyScheduleButton() {
+const AddButton = () => {
+
   return (
-
-  <Stack direction="column" spacing={10}>
-      <Box sx = {{ marginTop: 4, display: "flex", flexDirection: "row"}}>
-        <Button sx = {{ width: 0.5, height: 55, fontSize: 18}} variant="contained" disabled > 추천 여행 일정</Button>
-        <Button sx = {{ width: 0.5, height: 55, fontSize: 18}} variant="contained" > 내 여행 일정   </Button>
-      </Box>
+    <Stack direction="column" sx ={{ margin: "auto", marginTop:2, width:150}}>
+      <Button variant="outlined" endIcon= {<ArrowForwardIcon/>}> 내 일정에 추가</Button>
     </Stack>
-
   );
-}
+};
+
+export { AddButton};

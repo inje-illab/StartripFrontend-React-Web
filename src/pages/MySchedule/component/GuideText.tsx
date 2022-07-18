@@ -10,6 +10,6 @@ const GuideText = () => {
       </Box>
 
   );
-}
+};
 
 export {GuideText};

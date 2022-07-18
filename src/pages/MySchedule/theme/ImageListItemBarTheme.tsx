@@ -3,7 +3,6 @@ import {ThemeProvider, createTheme } from '@mui/system';
 
 const theme = createTheme({
 
-  
   palette: {
     background: {
       paper: '#fff',

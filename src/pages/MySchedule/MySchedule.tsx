@@ -18,6 +18,6 @@ const MySchedule = () => {
             </Container>
         </ST_Container>
     );
-}
+};
 
 export {MySchedule};
