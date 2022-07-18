@@ -6,13 +6,9 @@ import ImageCard from "./component/ImageCard";
 import MyScheduleButton from "./component/MyScheduleButton";
 import GuidText from "./component/GuidText";
 
-export default function MySchedule() {
-    
 
-    
-    
+const MySchedule = () => {
     return (
-        
         <ST_Container>
             <Container maxWidth="sm">
             <MyScheduleButton/>
@@ -22,3 +18,5 @@ export default function MySchedule() {
         </ST_Container>
     );
 }
+
+export {MySchedule};

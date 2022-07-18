@@ -42,22 +42,16 @@ const itemData = [
   {
     img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
     title: "설날에 부모님 모시고 갈 여행 일정",
-    author: "@bkristastucchio",
-    rows: 2,
-    cols: 2,
     featured: true,
   },
   {
     img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
     title: "어린이날 여행 일정",
-    author: "@rollelflex_graphy726",
   },
   {
     img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
     title: "퇴근하고 꼭 가야지!",
-    author: "@helloimnik",
   },
-  
 ];
 
 export default ImageCard;
