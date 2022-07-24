@@ -1,9 +1,9 @@
 import React from "react";
 import Main from "pages/Main/Main";
 import {Container} from "@mui/material";
-import { ST_Footer, ST_Header } from "layout";
+import { ST_Footer, ST_Header } from "./layout";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import routerData from "router";
+import routerData from "./router";
 
 const App = () => (
     <BrowserRouter>

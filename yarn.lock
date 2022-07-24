@@ -1159,6 +1159,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-transform-react-jsx-self@npm:^7.18.6":
+  version: 7.18.6
+  resolution: "@babel/plugin-transform-react-jsx-self@npm:7.18.6"
+  dependencies:
+    "@babel/helper-plugin-utils": ^7.18.6
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 7d24e29c63869bb23495c163a92678c1c3341ecf74db420a20c6d3db74cbf5000fe908943f6106494e7225c0168945c150e528162274fd8fc7721966ad26930a
+  languageName: node
+  linkType: hard
+
+"@babel/plugin-transform-react-jsx-source@npm:^7.18.6":
+  version: 7.18.6
+  resolution: "@babel/plugin-transform-react-jsx-source@npm:7.18.6"
+  dependencies:
+    "@babel/helper-plugin-utils": ^7.18.6
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 7e17e631820955f158c16e9b01a96cf82e3ee81bb3c7c03f2896ee0d41da3e8a7557546893bc81792afe46b817c4e9014fd6e4de8644fcf16fd0f7c4daf66e41
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-transform-react-jsx@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/plugin-transform-react-jsx@npm:7.18.6"
@@ -3455,6 +3477,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vitejs/plugin-react@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@vitejs/plugin-react@npm:2.0.0"
+  dependencies:
+    "@babel/core": ^7.18.6
+    "@babel/plugin-transform-react-jsx": ^7.18.6
+    "@babel/plugin-transform-react-jsx-development": ^7.18.6
+    "@babel/plugin-transform-react-jsx-self": ^7.18.6
+    "@babel/plugin-transform-react-jsx-source": ^7.18.6
+    magic-string: ^0.26.2
+    react-refresh: ^0.14.0
+  peerDependencies:
+    vite: ^3.0.0
+  checksum: 27e7968a46c04dffcd32e3a3cce5e0506b6d31544e18964224abcc688ccfa74d8fe99397f99489acf72c324f5a12cb7df39d3f261259603e256b296d5c6f4a89
+  languageName: node
+  linkType: hard
+
 "@webassemblyjs/ast@npm:1.11.1":
   version: 1.11.1
   resolution: "@webassemblyjs/ast@npm:1.11.1"
@@ -4957,6 +4996,7 @@ __metadata:
     "@types/testing-library__jest-dom": ^5.14.5
     "@typescript-eslint/eslint-plugin": ^5.30.6
     "@typescript-eslint/parser": ^5.30.6
+    "@vitejs/plugin-react": ^2.0.0
     "@yarnpkg/pnpify": ^4.0.0-rc.12
     "@yarnpkg/sdks": ^3.0.0-rc.4
     axios: ^0.27.2
@@ -4982,6 +5022,7 @@ __metadata:
     react-scripts: ^5.0.0
     recoil: ^0.7.2
     typescript: 4.4.4
+    vite: ^3.0.2
     web-vitals: ^2.1.4
     webpack: ^5.72.0
     webpack-dev-server: ^4.9.3
@@ -6380,7 +6421,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.14.38":
+"esbuild@npm:^0.14.38, esbuild@npm:^0.14.47":
   version: 0.14.49
   resolution: "esbuild@npm:0.14.49"
   dependencies:
@@ -9574,6 +9615,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"magic-string@npm:^0.26.2":
+  version: 0.26.2
+  resolution: "magic-string@npm:0.26.2"
+  dependencies:
+    sourcemap-codec: ^1.4.8
+  checksum: b4db4e2b370ac8d9ffc6443a2b591b75364bf1fc9121b5a4068d5b89804abff6709d1fa4a0e0c2d54f2e61e0e44db83efdfe219a5ab0ba6d25ee1f2b51fbed55
+  languageName: node
+  linkType: hard
+
 "make-dir@npm:^3.0.0, make-dir@npm:^3.0.2, make-dir@npm:^3.1.0":
   version: 3.1.0
   resolution: "make-dir@npm:3.1.0"
@@ -11722,6 +11772,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-refresh@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "react-refresh@npm:0.14.0"
+  checksum: dc69fa8c993df512f42dd0f1b604978ae89bd747c0ed5ec595c0cc50d535fb2696619ccd98ae28775cc01d0a7c146a532f0f7fb81dc22e1977c242a4912312f4
+  languageName: node
+  linkType: hard
+
 "react-router-dom@npm:^6.3.0":
   version: 6.3.0
   resolution: "react-router-dom@npm:6.3.0"
@@ -12218,7 +12275,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.43.1":
+"rollup@npm:^2.43.1, rollup@npm:^2.75.6":
   version: 2.77.0
   resolution: "rollup@npm:2.77.0"
   dependencies:
@@ -13684,6 +13741,38 @@ __metadata:
   version: 1.1.2
   resolution: "vary@npm:1.1.2"
   checksum: ae0123222c6df65b437669d63dfa8c36cee20a504101b2fcd97b8bf76f91259c17f9f2b4d70a1e3c6bbcee7f51b28392833adb6b2770b23b01abec84e369660b
+  languageName: node
+  linkType: hard
+
+"vite@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "vite@npm:3.0.2"
+  dependencies:
+    esbuild: ^0.14.47
+    fsevents: ~2.3.2
+    postcss: ^8.4.14
+    resolve: ^1.22.1
+    rollup: ^2.75.6
+  peerDependencies:
+    less: "*"
+    sass: "*"
+    stylus: "*"
+    terser: ^5.4.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    less:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+    terser:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 10aebec0df89bbdba9a0c72dc35ec3ec5be0b50216fc7a1e04b5da11de244033b1cbe83a95b1af67be176fc09e05698387d3cc9dcbee64e009dd43811f8717e9
   languageName: node
   linkType: hard
 
